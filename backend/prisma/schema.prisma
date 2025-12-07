@@ -1,0 +1,59 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Person {
+  id             String    @id @default(cuid())
+  alias          String
+  approxAgeBand  String
+  genderOpt      String?   @map("gender_opt")
+  healthFlags    Json?     @map("health_flags")
+  photoRef       String?   @map("photo_ref")
+  guardianId     String?   @map("guardian_id")
+  issuingOrg     String
+  consentRecord  Json      @map("consent_record")
+  expiresAt      DateTime  @map("expires_at")
+  createdAt      DateTime  @default(now()) @map("created_at")
+  updatedAt      DateTime  @updatedAt @map("updated_at")
+  schemaVersion  String    @default("v1") @map("schema_version")
+  revocations    Revocation[]
+  audits         Audit[]
+}
+
+model Revocation {
+  id        String   @id @default(cuid())
+  personId  String   @map("person_id")
+  reason    String?
+  createdAt DateTime @default(now()) @map("created_at")
+
+  person Person @relation(fields: [personId], references: [id], onDelete: Cascade)
+
+  @@index([personId])
+}
+
+model Audit {
+  id          String   @id @default(cuid())
+  actorId     String   @map("actor_id")
+  action      String
+  fieldsChanged Json?  @map("fields_changed")
+  deviceId    String?  @map("device_id")
+  offlineTxnId String? @map("offline_txn_id")
+  createdAt   DateTime @default(now()) @map("created_at")
+  personId    String?  @map("person_id")
+
+  person Person? @relation(fields: [personId], references: [id], onDelete: SetNull)
+
+  @@index([actorId])
+  @@index([personId])
+}
