@@ -25,10 +25,12 @@ let VerifyService = class VerifyService {
         try {
             payload = await this.signerService.verify(jws);
         }
-        catch (err) {
+        catch (_err) {
             throw new common_1.BadRequestException('Invalid signature');
         }
-        const person = await this.prisma.person.findUnique({ where: { id: payload.personId } });
+        const person = await this.prisma.person.findUnique({
+            where: { id: payload.personId },
+        });
         if (!person)
             throw new common_1.NotFoundException('Person not found');
         const now = Date.now();

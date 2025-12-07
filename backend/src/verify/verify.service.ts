@@ -1,4 +1,8 @@
-import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
+import {
+  BadRequestException,
+  Injectable,
+  NotFoundException,
+} from '@nestjs/common';
 import { SignerService } from '../signer/signer.service';
 import { PrismaService } from '../prisma/prisma.service';
 
@@ -19,11 +23,14 @@ export class VerifyService {
     };
     try {
       payload = await this.signerService.verify(jws);
-    } catch (err) {
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    } catch (_err) {
       throw new BadRequestException('Invalid signature');
     }
 
-    const person = await this.prisma.person.findUnique({ where: { id: payload.personId } });
+    const person = await this.prisma.person.findUnique({
+      where: { id: payload.personId },
+    });
     if (!person) throw new NotFoundException('Person not found');
 
     const now = Date.now();
@@ -39,18 +46,23 @@ export class VerifyService {
       payload,
       person: {
         id: person.id,
+
         alias: person.alias,
+
         approxAgeBand: person.approxAgeBand,
+
         issuingOrg: person.issuingOrg,
+
         expiresAt: person.expiresAt,
       },
       status: {
         expired,
         revoked: Boolean(revoked),
+
         revocationReason: revoked?.reason,
+
         revocationAt: revoked?.createdAt,
       },
     };
   }
 }
-

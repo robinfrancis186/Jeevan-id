@@ -1,4 +1,11 @@
-import { Body, Controller, Get, HttpCode, HttpStatus, Post } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Get,
+  HttpCode,
+  HttpStatus,
+  Post,
+} from '@nestjs/common';
 import { RevocationsService } from './revocations.service';
 import { CreateRevocationDto } from './dto/create-revocation.dto';
 
@@ -17,4 +24,3 @@ export class RevocationsController {
     return this.revocationsService.create(dto);
   }
 }
-

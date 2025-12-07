@@ -18,7 +18,8 @@ export class AuditService {
         actorId: data.actorId ?? 'system',
         action: data.action,
         personId: data.personId,
-        fieldsChanged: data.fieldsChanged,
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+        fieldsChanged: (data.fieldsChanged ?? {}) as any,
         deviceId: data.deviceId,
         offlineTxnId: data.offlineTxnId,
       },
@@ -32,4 +33,3 @@ export class AuditService {
     });
   }
 }
-

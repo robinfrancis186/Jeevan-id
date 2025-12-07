@@ -1,4 +1,4 @@
-import { importJWK, CompactVerifyResult, compactVerify } from 'jose'
+import { importJWK, type CompactVerifyResult, compactVerify } from 'jose'
 import { getCachedJwks, getCachedCrl } from './cache'
 
 type VerifyResult = {

@@ -33,7 +33,12 @@ let SignerService = SignerService_1 = class SignerService {
         }
         const { privateKey, publicKey } = await (0, jose_1.generateKeyPair)('ES256');
         this.privateKey = privateKey;
-        this.publicJwk = { ...(await (0, jose_1.exportJWK)(publicKey)), kid, alg: 'ES256', use: 'sig' };
+        this.publicJwk = {
+            ...(await (0, jose_1.exportJWK)(publicKey)),
+            kid,
+            alg: 'ES256',
+            use: 'sig',
+        };
         this.logger.warn('Signer keys generated ephemerally. Set SIGNER_PRIVATE_JWK and SIGNER_KID for persistence.');
     }
     async getJwks() {

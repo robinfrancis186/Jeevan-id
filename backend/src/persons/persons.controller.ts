@@ -11,4 +11,3 @@ export class PersonsController {
     return this.personsService.create(body);
   }
 }
-

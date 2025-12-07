@@ -26,7 +26,8 @@ let PersonsService = class PersonsService {
         this.auditService = auditService;
     }
     async create(dto) {
-        const expiresAt = dto.expiresAt ?? new Date(Date.now() + DEFAULT_EXPIRY_DAYS * 24 * 60 * 60 * 1000).toISOString();
+        const expiresAt = dto.expiresAt ??
+            new Date(Date.now() + DEFAULT_EXPIRY_DAYS * 24 * 60 * 60 * 1000).toISOString();
         const person = await this.prisma.person.create({
             data: {
                 alias: dto.alias,
@@ -51,7 +52,10 @@ let PersonsService = class PersonsService {
         await this.auditService.log({
             action: 'person.created',
             personId: person.id,
-            fieldsChanged: { alias: person.alias, approxAgeBand: person.approxAgeBand },
+            fieldsChanged: {
+                alias: person.alias,
+                approxAgeBand: person.approxAgeBand,
+            },
         });
         return {
             person,

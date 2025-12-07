@@ -18,4 +18,3 @@ export class VerifyController {
     return this.verifyService.verify(body.jws);
   }
 }
-

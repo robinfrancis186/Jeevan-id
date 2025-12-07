@@ -14,17 +14,17 @@ export declare class VerifyController {
             nonce: string;
         };
         person: {
-            id: any;
-            alias: any;
-            approxAgeBand: any;
-            issuingOrg: any;
-            expiresAt: any;
+            id: string;
+            alias: string;
+            approxAgeBand: string;
+            issuingOrg: string;
+            expiresAt: Date;
         };
         status: {
             expired: boolean;
             revoked: boolean;
-            revocationReason: any;
-            revocationAt: any;
+            revocationReason: string | null | undefined;
+            revocationAt: Date | undefined;
         };
     } | {
         error: string;

@@ -11,4 +11,3 @@ import { AuditModule } from '../audit/audit.module';
   providers: [PersonsService, PrismaService],
 })
 export class PersonsModule {}
-

@@ -11,8 +11,7 @@ async function bootstrap() {
     const app = await core_1.NestFactory.create(app_module_1.AppModule);
     app.setGlobalPrefix('api');
     app.enableCors({
-        origin: process.env.FRONTEND_ORIGIN?.split(',').map((value) => value.trim()) ||
-            ['http://localhost:5173'],
+        origin: process.env.FRONTEND_ORIGIN?.split(',').map((value) => value.trim()) || ['http://localhost:5173'],
         credentials: true,
     });
     app.use((0, helmet_1.default)());
@@ -23,5 +22,5 @@ async function bootstrap() {
     }));
     await app.listen(process.env.PORT ?? 3000);
 }
-bootstrap();
+void bootstrap();
 //# sourceMappingURL=main.js.map

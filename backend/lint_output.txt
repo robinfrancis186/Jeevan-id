@@ -1,0 +1,302 @@
+
+> backend@0.0.1 lint
+> eslint "{src,apps,libs,test}/**/*.ts" --fix
+
+
+/
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/app.controller.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/app.controller.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/app.controller.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/app.controller.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/app.module.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/app.module.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/app.module.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/app.module.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/app.service.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/app.service.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/app.service.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/app.service.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/browser.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/browser.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/browser.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/browser.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/client.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/client.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/client.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/client.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/commonInputTypes.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/commonInputTypes.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/commonInputTypes.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/commonInputTypes.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/enums.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/enums.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/enums.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/enums.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/internal/class.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/internal/class.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/internal/class.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/internal/class.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/internal/prismaNamespace.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/internal/prismaNamespace.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/internal/prismaNamespace.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/internal/prismaNamespace.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/internal/prismaNamespaceBrowser.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/internal/prismaNamespaceBrowser.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/internal/prismaNamespaceBrowser.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/internal/prismaNamespaceBrowser.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models/Audit.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models/Audit.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models/Audit.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models/Audit.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models/Person.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models/Person.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models/Person.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models/Person.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models/Revocation.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models/Revocation.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models/Revocation.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/generated/prisma/models/Revocation.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/main.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/main.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/main.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/main.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/prisma.config.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/prisma.config.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/prisma.config.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/prisma.config.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/app.module.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/app.module.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/app.module.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/app.module.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/audit/audit.controller.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/audit/audit.controller.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/audit/audit.controller.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/audit/audit.controller.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/audit/audit.module.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/audit/audit.module.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/audit/audit.module.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/audit/audit.module.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/audit/audit.service.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/audit/audit.service.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/audit/audit.service.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/audit/audit.service.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/main.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/main.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/dto/create-person.dto.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/dto/create-person.dto.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/dto/create-person.dto.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/dto/create-person.dto.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/persons.controller.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/persons.controller.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/persons.controller.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/persons.controller.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/persons.module.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/persons.module.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/persons.module.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/persons.module.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/persons.service.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/persons.service.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/persons.service.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/persons/persons.service.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/prisma/prisma.service.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/prisma/prisma.service.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/prisma/prisma.service.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/prisma/prisma.service.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/dto/create-revocation.dto.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/dto/create-revocation.dto.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/dto/create-revocation.dto.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/dto/create-revocation.dto.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/revocations.controller.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/revocations.controller.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/revocations.controller.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/revocations.controller.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/revocations.module.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/revocations.module.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/revocations.module.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/revocations.module.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/revocations.service.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/revocations.service.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/revocations.service.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/revocations/revocations.service.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/signer/signer.controller.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/signer/signer.controller.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/signer/signer.controller.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/signer/signer.controller.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/signer/signer.module.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/signer/signer.module.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/signer/signer.module.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/signer/signer.module.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/signer/signer.service.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/signer/signer.service.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/signer/signer.service.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/signer/signer.service.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/verify/verify.controller.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/verify/verify.controller.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/verify/verify.controller.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/verify/verify.controller.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/verify/verify.module.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/verify/verify.module.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/verify/verify.module.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/verify/verify.module.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/verify/verify.service.d.ts
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/verify/verify.service.d.ts was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/dist/src/verify/verify.service.js
+  0:0  error  Parsing error: /Users/robinfrancis/Desktop/jeevan id/backend/dist/src/verify/verify.service.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+
+/Users/robinfrancis/Desktop/jeevan id/backend/src/app.controller.spec.ts
+  19:14  error  Unsafe call of a(n) `error` type typed value  @typescript-eslint/no-unsafe-call
+
+/Users/robinfrancis/Desktop/jeevan id/backend/src/audit/audit.service.ts
+   8:3   error  Async method 'log' has no 'await' expression              @typescript-eslint/require-await
+  16:5   error  Unsafe return of a value of type error                    @typescript-eslint/no-unsafe-return
+  16:12  error  Unsafe call of a(n) `error` type typed value              @typescript-eslint/no-unsafe-call
+  16:30  error  Unsafe member access .create on an `error` typed value    @typescript-eslint/no-unsafe-member-access
+  28:3   error  Async method 'list' has no 'await' expression             @typescript-eslint/require-await
+  29:5   error  Unsafe return of a value of type error                    @typescript-eslint/no-unsafe-return
+  29:12  error  Unsafe call of a(n) `error` type typed value              @typescript-eslint/no-unsafe-call
+  29:30  error  Unsafe member access .findMany on an `error` typed value  @typescript-eslint/no-unsafe-member-access
+
+/Users/robinfrancis/Desktop/jeevan id/backend/src/main.ts
+  28:1  warning  Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator  @typescript-eslint/no-floating-promises
+
+/Users/robinfrancis/Desktop/jeevan id/backend/src/persons/persons.service.ts
+  25:11  error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  25:26  error  Unsafe call of a(n) `error` type typed value                   @typescript-eslint/no-unsafe-call
+  25:45  error  Unsafe member access .create on an `error` typed value         @typescript-eslint/no-unsafe-member-access
+  40:7   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  40:24  error  Unsafe member access .id on an `error` typed value             @typescript-eslint/no-unsafe-member-access
+  41:7   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  41:26  error  Unsafe member access .issuingOrg on an `error` typed value     @typescript-eslint/no-unsafe-member-access
+  42:7   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  42:18  error  Unsafe call of a(n) `error` type typed value                   @typescript-eslint/no-unsafe-call
+  42:25  error  Unsafe member access .expiresAt on an `error` typed value      @typescript-eslint/no-unsafe-member-access
+  43:7   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  43:29  error  Unsafe member access .schemaVersion on an `error` typed value  @typescript-eslint/no-unsafe-member-access
+  50:7   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  50:24  error  Unsafe member access .id on an `error` typed value             @typescript-eslint/no-unsafe-member-access
+  52:23  error  Unsafe member access .alias on an `error` typed value          @typescript-eslint/no-unsafe-member-access
+  53:31  error  Unsafe member access .approxAgeBand on an `error` typed value  @typescript-eslint/no-unsafe-member-access
+  58:7   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  60:7   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  60:25  error  Unsafe member access .expiresAt on an `error` typed value      @typescript-eslint/no-unsafe-member-access
+
+/Users/robinfrancis/Desktop/jeevan id/backend/src/prisma/prisma.service.ts
+   7:11  error  Unsafe call of a(n) `error` type typed value                  @typescript-eslint/no-unsafe-call
+  10:3   error  Async method 'enableShutdownHooks' has no 'await' expression  @typescript-eslint/require-await
+  11:5   error  Unsafe call of a(n) `error` type typed value                  @typescript-eslint/no-unsafe-call
+
+/Users/robinfrancis/Desktop/jeevan id/backend/src/revocations/revocations.controller.ts
+  24:5  error  Unsafe return of a value of type `Promise<any>`  @typescript-eslint/no-unsafe-return
+
+/Users/robinfrancis/Desktop/jeevan id/backend/src/revocations/revocations.service.ts
+  15:11  error  Unsafe assignment of an error typed value                 @typescript-eslint/no-unsafe-assignment
+  15:30  error  Unsafe call of a(n) `error` type typed value              @typescript-eslint/no-unsafe-call
+  15:53  error  Unsafe member access .create on an `error` typed value    @typescript-eslint/no-unsafe-member-access
+  26:5   error  Unsafe return of a value of type error                    @typescript-eslint/no-unsafe-return
+  30:11  error  Unsafe assignment of an error typed value                 @typescript-eslint/no-unsafe-assignment
+  30:31  error  Unsafe call of a(n) `error` type typed value              @typescript-eslint/no-unsafe-call
+  30:54  error  Unsafe member access .findMany on an `error` typed value  @typescript-eslint/no-unsafe-member-access
+  38:23  error  Unsafe assignment of an error typed value                 @typescript-eslint/no-unsafe-assignment
+
+/Users/robinfrancis/Desktop/jeevan id/backend/src/signer/signer.service.ts
+  35:13  error  Unsafe assignment of an `any` value  @typescript-eslint/no-unsafe-assignment
+
+/Users/robinfrancis/Desktop/jeevan id/backend/src/verify/verify.service.ts
+  26:14  error  'err' is defined but never used                                @typescript-eslint/no-unused-vars
+  30:11  error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  30:26  error  Unsafe call of a(n) `error` type typed value                   @typescript-eslint/no-unsafe-call
+  30:45  error  Unsafe member access .findUnique on an `error` typed value     @typescript-eslint/no-unsafe-member-access
+  39:11  error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  39:27  error  Unsafe call of a(n) `error` type typed value                   @typescript-eslint/no-unsafe-call
+  39:50  error  Unsafe member access .findFirst on an `error` typed value      @typescript-eslint/no-unsafe-member-access
+  47:9   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  47:20  error  Unsafe member access .id on an `error` typed value             @typescript-eslint/no-unsafe-member-access
+  48:9   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  48:23  error  Unsafe member access .alias on an `error` typed value          @typescript-eslint/no-unsafe-member-access
+  49:9   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  49:31  error  Unsafe member access .approxAgeBand on an `error` typed value  @typescript-eslint/no-unsafe-member-access
+  50:9   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  50:28  error  Unsafe member access .issuingOrg on an `error` typed value     @typescript-eslint/no-unsafe-member-access
+  51:9   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  51:27  error  Unsafe member access .expiresAt on an `error` typed value      @typescript-eslint/no-unsafe-member-access
+  56:9   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  56:36  error  Unsafe member access .reason on an `error` typed value         @typescript-eslint/no-unsafe-member-access
+  57:9   error  Unsafe assignment of an error typed value                      @typescript-eslint/no-unsafe-assignment
+  57:32  error  Unsafe member access .createdAt on an `error` typed value      @typescript-eslint/no-unsafe-member-access
+
+✖ 134 problems (133 errors, 1 warning)
+

@@ -23,7 +23,7 @@ let AuditService = class AuditService {
                 actorId: data.actorId ?? 'system',
                 action: data.action,
                 personId: data.personId,
-                fieldsChanged: data.fieldsChanged,
+                fieldsChanged: (data.fieldsChanged ?? {}),
                 deviceId: data.deviceId,
                 offlineTxnId: data.offlineTxnId,
             },

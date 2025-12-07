@@ -5,7 +5,16 @@ export declare class RevocationsController {
     constructor(revocationsService: RevocationsService);
     list(): Promise<{
         version: string;
-        revocations: any;
+        revocations: {
+            createdAt: Date;
+            personId: string;
+            reason: string | null;
+        }[];
     }>;
-    create(dto: CreateRevocationDto): Promise<any>;
+    create(dto: CreateRevocationDto): Promise<{
+        id: string;
+        createdAt: Date;
+        personId: string;
+        reason: string | null;
+    }>;
 }

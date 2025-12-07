@@ -23,6 +23,7 @@ export class RevocationsService {
       personId: dto.personId,
       fieldsChanged: { reason: dto.reason },
     });
+
     return revocation;
   }
 
@@ -31,11 +32,12 @@ export class RevocationsService {
       orderBy: { createdAt: 'desc' },
       select: { personId: true, reason: true, createdAt: true },
     });
+
     const version = createHash('sha256')
       .update(JSON.stringify(revocations))
       .digest('hex')
       .slice(0, 12);
+
     return { version, revocations };
   }
 }
-

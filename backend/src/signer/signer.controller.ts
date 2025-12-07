@@ -10,4 +10,3 @@ export class SignerController {
     return this.signerService.getJwks();
   }
 }
-

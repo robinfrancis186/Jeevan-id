@@ -9,4 +9,3 @@ export class CreateRevocationDto {
   @IsString()
   reason?: string;
 }
-

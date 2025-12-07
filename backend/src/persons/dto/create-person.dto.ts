@@ -42,4 +42,3 @@ export class CreatePersonDto {
   @IsDateString()
   expiresAt?: string;
 }
-

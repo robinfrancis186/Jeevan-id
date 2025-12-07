@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { QrScanner } from '@yudiel/react-qr-scanner'
+import { Scanner } from '@yudiel/react-qr-scanner'
 import { useMutation } from '@tanstack/react-query'
 import { verifyJws } from '../lib/api'
 import { CTAButton } from './CTAButton'
@@ -47,15 +47,20 @@ export function QRScanner() {
       </div>
       <div className="mt-3 grid gap-4 lg:grid-cols-[1fr,1fr]">
         <div className="overflow-hidden rounded-xl border border-slate-200 bg-black/60">
-          <QrScanner
-            onDecode={(text) => {
-              setLastJws(text)
-              mutation.mutate(text)
+          <Scanner
+            onScan={(result) => {
+              if (result?.[0]?.rawValue) {
+                const text = result[0].rawValue
+                setLastJws(text)
+                mutation.mutate(text)
+              }
             }}
-            onError={(err) => setPermissionError(err?.message ?? 'Camera error')}
+            onError={(err: unknown) => {
+              const errorMsg = err instanceof Error ? err.message : 'Camera error'
+              setPermissionError(errorMsg)
+            }}
             constraints={{ facingMode: 'environment' }}
-            containerStyle={{ width: '100%', minHeight: '240px' }}
-            videoStyle={{ width: '100%' }}
+            styles={{ container: { width: '100%', minHeight: '240px' }, video: { width: '100%' } }}
           />
         </div>
         <div className="space-y-2 text-sm text-slate-700">

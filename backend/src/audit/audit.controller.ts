@@ -11,4 +11,3 @@ export class AuditController {
     return this.auditService.list(take);
   }
 }
-

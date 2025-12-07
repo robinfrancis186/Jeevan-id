@@ -1,5 +1,12 @@
 import { Injectable, Logger } from '@nestjs/common';
-import { exportJWK, generateKeyPair, importJWK, JWK, SignJWT, jwtVerify } from 'jose';
+import {
+  exportJWK,
+  generateKeyPair,
+  importJWK,
+  JWK,
+  SignJWT,
+  jwtVerify,
+} from 'jose';
 
 type Payload = {
   personId: string;
@@ -25,10 +32,11 @@ export class SignerService {
     const kid = process.env.SIGNER_KID ?? 'app-es256';
 
     if (fromEnv) {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
       const parsed: JWK = JSON.parse(fromEnv);
       const priv = await importJWK(parsed, 'ES256');
       const pub = { ...(await exportJWK(priv)), kid, alg: 'ES256', use: 'sig' };
-      this.privateKey = priv;
+      this.privateKey = priv as CryptoKey;
       this.publicJwk = pub;
       this.logger.log(`Signer keys loaded from env with kid=${kid}`);
       return;
@@ -36,7 +44,12 @@ export class SignerService {
 
     const { privateKey, publicKey } = await generateKeyPair('ES256');
     this.privateKey = privateKey;
-    this.publicJwk = { ...(await exportJWK(publicKey)), kid, alg: 'ES256', use: 'sig' };
+    this.publicJwk = {
+      ...(await exportJWK(publicKey)),
+      kid,
+      alg: 'ES256',
+      use: 'sig',
+    };
     this.logger.warn(
       'Signer keys generated ephemerally. Set SIGNER_PRIVATE_JWK and SIGNER_KID for persistence.',
     );
@@ -66,4 +79,3 @@ export class SignerService {
     return result.payload;
   }
 }
-

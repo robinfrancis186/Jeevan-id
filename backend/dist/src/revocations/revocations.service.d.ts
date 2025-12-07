@@ -5,9 +5,18 @@ export declare class RevocationsService {
     private prisma;
     private auditService;
     constructor(prisma: PrismaService, auditService: AuditService);
-    create(dto: CreateRevocationDto): Promise<any>;
+    create(dto: CreateRevocationDto): Promise<{
+        id: string;
+        createdAt: Date;
+        personId: string;
+        reason: string | null;
+    }>;
     list(): Promise<{
         version: string;
-        revocations: any;
+        revocations: {
+            createdAt: Date;
+            personId: string;
+            reason: string | null;
+        }[];
     }>;
 }

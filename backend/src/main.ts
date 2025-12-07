@@ -8,9 +8,9 @@ async function bootstrap() {
 
   app.setGlobalPrefix('api');
   app.enableCors({
-    origin:
-      process.env.FRONTEND_ORIGIN?.split(',').map((value) => value.trim()) ||
-      ['http://localhost:5173'],
+    origin: process.env.FRONTEND_ORIGIN?.split(',').map((value) =>
+      value.trim(),
+    ) || ['http://localhost:5173'],
     credentials: true,
   });
 
@@ -25,4 +25,4 @@ async function bootstrap() {
 
   await app.listen(process.env.PORT ?? 3000);
 }
-bootstrap();
+void bootstrap();

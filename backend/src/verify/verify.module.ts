@@ -10,4 +10,3 @@ import { PrismaService } from '../prisma/prisma.service';
   providers: [VerifyService, PrismaService],
 })
 export class VerifyModule {}
-
